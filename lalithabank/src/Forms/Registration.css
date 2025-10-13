@@ -3,7 +3,7 @@
 }
 
 .image-signup-container{
-    background-image: url("../Images/Register.jpg");
+    background-image: url("../Images/Registerr.jpg");
     background-size: 100% 100%;
     width: 125vh;
     height: 90vh;
@@ -17,7 +17,7 @@
     width:250px;
     display: flex;
     margin: 5px;
-    margin-left: 10px;
+    margin-left: 11px;
 }
 
 .signUp-text{
@@ -26,6 +26,7 @@
     padding: 10px;
     border-radius: 10px;
     width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .signUp-text button{
@@ -34,7 +35,6 @@
     border-radius: 10px;
     margin: 5px;
     margin-left: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .signUp-text button:hover{

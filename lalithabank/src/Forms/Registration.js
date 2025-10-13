@@ -2,7 +2,7 @@
 import React, {useState} from 'react';
 import axios from "axios"
 import './Registration.css';
-import logoImage from "../../src/Images/LB logo.jpg";
+import logoImage from "../../src/Images/Registerr.jpg";
 
 const Registration = () => {
     const[signupData, setSignupData]=useState({
@@ -11,7 +11,7 @@ const Registration = () => {
       accountNumber:"",
       branch:"",
       phoneNumber:"",
-    });
+    })
     const handleSignup=async(e)=>{
         e.preventDefault();
         try{
@@ -64,7 +64,7 @@ const Registration = () => {
                                 setSignupData({...signupData, accountNumber:e.target.value})
                             }
                         
-                        }} 
+                        }}
                         required   
                     />
                 </div>
