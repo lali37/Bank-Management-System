@@ -2,9 +2,11 @@
 import React, {useState} from 'react';
 import axios from "axios"
 import './Registration.css';
-import logoImage from "../../src/Images/Registerr.jpg";
+import logoImage from "../../src/Images/LB logo.jpg";
+import { useNavigate } from 'react-router-dom';
 
 const Registration = () => {
+    const navigate=useNavigate();
     const[signupData, setSignupData]=useState({
       username:"" , 
       password:"",
@@ -16,7 +18,8 @@ const Registration = () => {
         e.preventDefault();
         try{
             await axios.post("http://localhost:3001/api/signup", signupData)
-            console.log("Signup successful")
+            console.log("Signup successful");
+            navigate("/login")
         }
         catch(error){
             console.error("Signup failed", error)
