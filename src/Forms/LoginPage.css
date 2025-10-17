@@ -1,0 +1,63 @@
+.login-container{
+    display: flex;
+}
+
+.image-login-container{
+    background-image: url("../Images/Login.jpg");
+    background-size: 100% 100%;
+    width: 100vh;
+    height: 90vh;
+}
+
+.text-login-container input{
+    border: 1px solid gold;
+    padding: 10px;
+    border-radius: 20px;
+    width:250px;
+    display: flex;
+    margin: 5px;
+    margin-left: 11px;
+}
+
+.text-login-container{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 10px;
+    width: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-login-container button{
+    border: 1px solid gold;
+    padding: 0.8vw 1vw;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.text-login-container button:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+
+.text-login-container img{
+    height: 60px;
+    padding: 10px; 
+}
+
+.text-login-container label{
+    padding: 10px;
+}
+
+.error-msg{
+    color: red;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+p{
+    padding-left: 15px;
+}
+

@@ -1,0 +1,35 @@
+.home-container{
+    display: flex;
+}
+
+.image-container{
+    background-image: url("./Images/LalithaBank.jpg");
+    width: 200vh;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.text-container{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.text-container h2{
+    color: gold;
+    padding: 10px;
+}
+
+.text-container p{
+    color: grey;
+    padding-left: 10px;
+}
+
+.text-container img{
+    width: 70px;
+    height: 70px;
+}
